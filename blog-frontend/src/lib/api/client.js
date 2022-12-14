@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const client = axios.create();
-client.defaults.baseURL = 'https://localhost:4000'
+client.defaults.baseURL = 'https://localhost:3000'
 
 /*
   글로벌 설정 예시:
